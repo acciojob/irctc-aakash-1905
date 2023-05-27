@@ -12,7 +12,7 @@ public class BookTicketEntryDto {
 
     private Integer bookingPersonId;
 
-    private Integer trainId;
+    private static Integer trainId;
 
 
     private Station fromStation;
